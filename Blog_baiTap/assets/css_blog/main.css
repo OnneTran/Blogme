@@ -1,0 +1,253 @@
+/* header */
+
+#header .header_nav-content a:first-child {
+    color: #fff;
+}
+
+#header .header_nav-content .blog {
+    color: var(--green);
+}
+
+
+/* slide */
+
+#content {
+    margin-top: 297px;
+}
+
+.grid__row>h3 {
+    /* font-size: calc(1.3rem + .6vw); */
+    font-size: 50px;
+}
+
+.slider-me {
+    display: none;
+}
+
+#slider {
+    margin-top: 16px;
+    padding: 140px 40px 140px 68px;
+}
+
+
+/* .slide-blog {
+    width: 100%;
+    height: 570px;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 18px;
+    border: 3px solid rgb(111, 186, 221);
+    font-size: 30px;
+    line-height: 35px;
+} */
+
+.slideshow {
+    width: 100%;
+    height: 800px;
+    overflow: hidden;
+    position: absolute;
+    top: 47%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.navigation {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+}
+
+.bar {
+    width: 20px;
+    height: 20px;
+    border: 2px solid #fff;
+    border-radius: 30px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.bar:hover {
+    background: var(--color-blue);
+    transition: 0.6s;
+    border: 2px solid #fff;
+}
+
+input[name="bottom"] {
+    position: absolute;
+    visibility: hidden;
+}
+
+.slides {
+    width: 500%;
+    height: 100%;
+    display: flex;
+}
+
+.slide {
+    width: 33.33333%;
+    transition: 0.6s;
+}
+
+.slide img {
+    width: 100%;
+    height: 100%;
+}
+
+#bottom_1:checked~.s1 {
+    margin-left: 0;
+}
+
+#bottom_2:checked~.s1 {
+    margin-left: -33.33333%;
+}
+
+#bottom_3:checked~.s1 {
+    margin-left: -66.66667%;
+}
+
+
+/* border content */
+
+.border-content {
+    position: absolute;
+    /* width: 100%; */
+    width: 90%;
+    height: 404px;
+    max-width: 100%;
+    padding: 64px 0 100px;
+    margin-left: auto;
+    margin-right: auto;
+    /* color: chocolate; */
+    padding-left: 68px;
+    padding-right: 16px;
+    border-radius: 18px;
+    border: 3px solid rgb(111, 186, 221);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 30px;
+    line-height: 35px;
+}
+
+.border-content .slider-me_header {
+    margin-top: 33px;
+    margin-bottom: 33px;
+    line-height: 53px;
+    width: 59%;
+}
+
+.border-content .slider-me_content {
+    font-size: 22px;
+    margin-bottom: 33px;
+    line-height: 28px;
+    width: 94%;
+}
+
+.border-content .slider-me_button {
+    background-color: var(--green);
+    color: #fff;
+    border: solid var(--green);
+    border-radius: 5px;
+    width: 20%;
+    font-size: 25px;
+    text-align: center;
+}
+
+.border-content .slider-me_button:hover {
+    opacity: 0.7;
+}
+
+.border-content .slider-me_button a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+}
+
+.home-product-blog {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content_footer {
+    margin-bottom: 74px;
+}
+
+
+/* product */
+
+.img-blog {
+    width: 40%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.content-body-blog {
+    background-color: var(--color-background);
+    padding: 0px 40px;
+    padding-right: 0px;
+    padding-left: 20px;
+}
+
+.content-body-blog>p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+p.content-time-blog {
+    font-size: 15px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.content-head-blog {
+    font-size: 27px;
+    font-weight: 400;
+    line-height: 31px;
+    color: #fff;
+}
+
+
+/* navigation */
+
+#content {
+    position: relative;
+    padding-bottom: 20px;
+}
+
+.mb-5 {
+    margin-bottom: 3rem!important;
+    position: absolute !important;
+    font-size: 19px;
+}
+
+.page-link {
+    position: relative;
+    display: block;
+    color: var(--color-blue)!important;
+    text-decoration: none;
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.page-item.active .page-link {
+    z-index: 3;
+    color: #fff!important;
+    background-color: var(--color-blue)!important;
+    border-color: var(--color-blue)!important;
+}
+
+.text-centers {
+    border-bottom: 1px solid var(--color-blue);
+}
+
+
+/* footer */
+
+.info-sub ul {
+    padding-left: 0;
+}
