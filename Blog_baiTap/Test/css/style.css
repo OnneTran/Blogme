@@ -1,0 +1,70 @@
+* {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+.slogan {
+    background-color: black;
+    height: 480px;
+    color: #fff;
+}
+
+.slogan .slogan_content {
+    display: flex;
+    flex-direction: row;
+    padding: 100px 62px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.slogan .img {
+    border: 8px solid #FFE600;
+    max-width: 500px;
+    margin-left: 44px;
+}
+
+.slogan .content {
+    margin-left: 30px;
+}
+
+.slogan .title {
+    font-weight: 600;
+    font-size: 45px;
+    background: linear-gradient(to right, yellow, orange) left bottom no-repeat;
+    background-size: 100% 4px;
+    width: fit-content;
+    height: 60px;
+}
+
+.slogan .cnt {
+    margin: 55px 0;
+    font-size: 18px;
+}
+
+.slogan .slogan-btn {
+    border: none;
+    background-color: orange;
+    font-weight: bold;
+    color: #fff;
+    width: 200px;
+    height: 50px;
+    border-radius: 17px;
+}
+
+@media screen and (max-width: 1400px) {
+    .slogan .img {
+        max-width: 400px;
+    }
+    .slogan .cnt {
+        margin: 27px 0;
+    }
+}
+
+@media screen and (max-width: 1210px) {
+    .slogan .img {
+        display: none;
+    }
+}
