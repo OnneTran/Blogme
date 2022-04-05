@@ -8,7 +8,7 @@
 
 .slogan {
     background-color: black;
-    height: 480px;
+    height: 500px;
     color: #fff;
 }
 
@@ -66,5 +66,12 @@
 @media screen and (max-width: 1210px) {
     .slogan .img {
         display: none;
+    }
+    .slogan .title {
+        font-size: 20px;
+        height: 36px;
+    }
+    .slogan .cnt {
+        font-size: 16px;
     }
 }
